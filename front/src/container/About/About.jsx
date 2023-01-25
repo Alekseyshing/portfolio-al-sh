@@ -17,16 +17,6 @@ const About = () => {
     });
   }, []);
 
-  // urlFor(abouts.map((about) => {
-  //   console.log(about.imgUrl);
-  // }))
-
-  abouts.map((about) => {
-    console.log(urlFor(about.imgUrl).url());
-  })
-
-
-
   return (
     <>
       <h2 className="head-text">I Know that <span>Good Design</span> <br />means  <span>Good Business</span></h2>
